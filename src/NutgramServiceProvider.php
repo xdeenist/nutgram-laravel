@@ -38,7 +38,7 @@ class NutgramServiceProvider extends ServiceProvider
                 container: $app,
                 hydrator: config('nutgram.config.hydrator', Configuration::DEFAULT_HYDRATOR),
                 cache: $app->get(Cache::class),
-                logger: $app->get(LoggerInterface::class)->channel(config('nutgram.log_channel', 'null')),
+                logger: $app->get(LoggerInterface::class)->channel(config('nutgram.log_channel', 'daily')),
                 localPathTransformer: config('nutgram.config.local_path_transformer'),
                 pollingTimeout: config('nutgram.config.polling.timeout', Configuration::DEFAULT_POLLING_TIMEOUT),
                 pollingAllowedUpdates: config('nutgram.config.polling.allowed_updates',
