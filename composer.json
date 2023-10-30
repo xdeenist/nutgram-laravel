@@ -1,5 +1,5 @@
 {
-  "name": "nutgram/laravel",
+  "name": "xdeenist/nutgram-laravel",
   "description": "Laravel package for Nutgram",
   "keywords": [
     "laravel",
@@ -10,7 +10,7 @@
     "library",
     "framework"
   ],
-  "homepage": "https://github.com/nutgram/nutgram-laravel",
+  "homepage": "https://github.com/xdeenist/nutgram-laravel",
   "license": "MIT",
   "type": "library",
   "authors": [
@@ -30,7 +30,7 @@
   "require": {
     "php": "^8.2",
     "nunomaduro/termwind": "^1.15",
-    "nutgram/nutgram": "^4.6.0"
+    "xdeenist/nutgram": "*"
   },
   "require-dev": {
     "illuminate/testing": "^9.0|^10.0",
